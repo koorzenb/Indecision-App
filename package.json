@@ -1,7 +1,7 @@
 {
-  "name": "my-app",
+  "name": "indecision-app",
   "version": "1.0.0",
-  "description": "My App",
+  "description": "Indecision App",
   "main": "index.js",
   "scripts": {
     "serve": "live-server public/",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koorzenb/my-app.git"
+    "url": "git+https://github.com/koorzenb/indecision-app.git"
   },
   "author": "Barend Koorzen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/koorzenb/my-app/issues"
+    "url": "https://github.com/koorzenb/indecision-app/issues"
   },
-  "homepage": "https://github.com/koorzenb/my-app#readme",
+  "homepage": "https://github.com/koorzenb/indecision-app#readme",
   "dependencies": {
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",

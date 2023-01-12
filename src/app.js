@@ -2,24 +2,33 @@ console.log('app running');
 
 const app = {
     title: 'Indecision App',
-    subtitle: 'Put your hands in the life of a numbercruncher'
+    subtitle: 'Put your hands in the life of a numbercruncher',
+    options: ['One','Two']
 }
 
-var template = <div>
-<h1>{app.title}</h1>
-<p>{app.subtitle}</p>
+const template = <div>
+    <h1>{app.title}</h1>
+    {app.subtitle && <p>{app.subtitle}</p>}
+    {app.options.length > 0 && <p>Here are your options: </p>}
 </div>;
 
 const user = {
-    userName: "Barend",
-    userAge: '34',
-    userLocation: 'Bellville'
+    name: "Barend",
+    age: '3',
+    location: 'Bellville'
 }
+
+function getLocation(location) {
+    if(location) {
+        return <p>Location: {location}</p>;
+    } 
+}
+
 const templateTwo = (
     <div>
-        <h1>{user.userName}</h1>
-        <p>Age: {user.userAge}</p>
-        <p>Location: {user.userLocation}</p>
+        <h1>{user.name ? user.name : 'Anonymous'}</h1>
+        {(user.age && user.age >= 18) && <p>Age: {user.age}</p>}
+        {getLocation(user.location)}
     </div>
 );
 var appRoot = document.getElementById('app');

@@ -1,12 +1,17 @@
-class Header extends React.Component {
-    render() {
-        return (
-            <div>
-                <h1>Indecision App</h1>
-                <h2>Put your life in the hands of a computer</h2>
-            </div>
-        )
-    }
+"Create React Component": {
+    "prefix": "comp",
+        "body": [
+            "class $1 extends React.Component {",
+            " render() {",
+            "  return (",
+            "   <div>",
+            "    $2",
+            "   </div>",
+            "  )",
+            " };",
+            "}"
+        ],
+            "description": "Create React Component"
 }
 
 class Options extends React.Component {

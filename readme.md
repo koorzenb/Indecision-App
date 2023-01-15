@@ -1,5 +1,6 @@
 # My App
 ## development
+- Powershell: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 <!-- - npm install -g yarn -->
 - npm i -g live-server
 - npm i -g babel-cli

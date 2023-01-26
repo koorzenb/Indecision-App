@@ -53,7 +53,7 @@ class IndecisionApp extends React.Component {
     if (!option) {
       return 'Enter valid value';
     } else if (this.state.options.indexOf(option) > -1) {
-      return 'options already exists';
+      return 'option already exists';
     }
 
     this.setState((prevState) => ({

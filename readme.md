@@ -3,8 +3,8 @@
 ## development
 
 - Powershell: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
-- npm run build
-- npm run serve
+- npm run dev-server
+- Browser: http://localhost:8080/
 
 ## Notes
 

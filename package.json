@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/koorzenb/indecision-app#readme",
   "dependencies": {
+    "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^9.1.2",
